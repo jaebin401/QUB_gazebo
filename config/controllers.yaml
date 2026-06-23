@@ -1,0 +1,48 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - torso_yaw_joint
+      - R_hip_pitch_joint
+      - R_hip_roll_joint
+      - R_hip_yaw_joint
+      - R_knee_pitch_joint
+      - R_ankle_pitch_joint
+      - R_ankle_roll_joint
+      - L_hip_pitch_joint
+      - L_hip_roll_joint
+      - L_hip_yaw_joint
+      - L_knee_pitch_joint
+      - L_ankle_pitch_joint
+      - L_ankle_roll_joint
+
+    command_interfaces:
+      - effort
+
+    state_interfaces:
+      - position
+      - velocity
+
+    gains:
+      torso_yaw_joint:     { p: 30.0,  d: 1.0,  i: 0.0 }
+      R_hip_pitch_joint:   { p: 80.0,  d: 2.0,  i: 0.0 }
+      R_hip_roll_joint:    { p: 80.0,  d: 2.0,  i: 0.0 }
+      R_hip_yaw_joint:     { p: 60.0,  d: 1.5,  i: 0.0 }
+      R_knee_pitch_joint:  { p: 120.0, d: 3.0,  i: 0.0 }
+      R_ankle_pitch_joint: { p: 20.0,  d: 0.5,  i: 0.0 }
+      R_ankle_roll_joint:  { p: 20.0,  d: 0.5,  i: 0.0 }
+      L_hip_pitch_joint:   { p: 80.0,  d: 2.0,  i: 0.0 }
+      L_hip_roll_joint:    { p: 80.0,  d: 2.0,  i: 0.0 }
+      L_hip_yaw_joint:     { p: 60.0,  d: 1.5,  i: 0.0 }
+      L_knee_pitch_joint:  { p: 120.0, d: 3.0,  i: 0.0 }
+      L_ankle_pitch_joint: { p: 20.0,  d: 0.5,  i: 0.0 }
+      L_ankle_roll_joint:  { p: 20.0,  d: 0.5,  i: 0.0 }
