@@ -4,7 +4,7 @@
   <name>QUB_gazebo</name>
   <version>0.0.1</version>
   <description>QUB humanoid robot description and Gazebo simulation</description>
-  <maintainer email="jaebin401@example.com">Jaebin</maintainer>
+  <maintainer email="anjaebin200701@gmail.com">Jaebin</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
