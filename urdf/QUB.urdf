@@ -53,7 +53,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/base_link.STL" />
+          filename="package://QUB_gazebo/meshes/base_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -91,7 +91,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/pelvis_link.STL" />
+          filename="package://QUB_gazebo/meshes/pelvis_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -104,7 +104,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/pelvis_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/pelvis_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -143,7 +143,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/R_hip_r_link.STL" />
+          filename="package://QUB_gazebo/meshes/R_hip_r_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -157,7 +157,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/R_hip_r_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/R_hip_r_link.STL" />
       </geometry>
     </collision>
     -->
@@ -197,7 +197,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/R_hip_y_link.STL" />
+          filename="package://QUB_gazebo/meshes/R_hip_y_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -211,7 +211,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/R_hip_y_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/R_hip_y_link.STL" />
       </geometry>
     </collision>
     -->
@@ -251,7 +251,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/R_thigh_link.STL" />
+          filename="package://QUB_gazebo/meshes/R_thigh_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -265,7 +265,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/R_thigh_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/R_thigh_link.STL" />
       </geometry>
     </collision>
     -->
@@ -305,7 +305,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/R_calf_link.STL" />
+          filename="package://QUB_gazebo/meshes/R_calf_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -319,7 +319,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/R_calf_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/R_calf_link.STL" />
       </geometry>
     </collision>
     -->
@@ -359,7 +359,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/R_ankle_link.STL" />
+          filename="package://QUB_gazebo/meshes/R_ankle_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -373,7 +373,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/R_ankle_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/R_ankle_link.STL" />
       </geometry>
     </collision>
     -->
@@ -413,7 +413,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/R_foot_link.STL" />
+          filename="package://QUB_gazebo/meshes/R_foot_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -426,7 +426,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/R_foot_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/R_foot_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -465,7 +465,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/L_hip_r_link.STL" />
+          filename="package://QUB_gazebo/meshes/L_hip_r_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -479,7 +479,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/L_hip_r_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/L_hip_r_link.STL" />
       </geometry>
     </collision>
     -->
@@ -519,7 +519,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/L_hip_y_link.STL" />
+          filename="package://QUB_gazebo/meshes/L_hip_y_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -533,7 +533,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/L_hip_y_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/L_hip_y_link.STL" />
       </geometry>
     </collision>
     -->
@@ -573,7 +573,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/L_thigh_link.STL" />
+          filename="package://QUB_gazebo/meshes/L_thigh_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -587,7 +587,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/L_thigh_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/L_thigh_link.STL" />
       </geometry>
     </collision>
     -->
@@ -627,7 +627,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/L_calf_link.STL" />
+          filename="package://QUB_gazebo/meshes/L_calf_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -641,7 +641,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/L_calf_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/L_calf_link.STL" />
       </geometry>
     </collision>
     -->
@@ -681,7 +681,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/L_ankle_link.STL" />
+          filename="package://QUB_gazebo/meshes/L_ankle_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -695,7 +695,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/L_ankle_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/L_ankle_link.STL" />
       </geometry>
     </collision>
     -->
@@ -735,7 +735,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/L_foot_link.STL" />
+          filename="package://QUB_gazebo/meshes/L_foot_link.STL" />
       </geometry>
       <material name="">
         <color
@@ -748,7 +748,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="../meshes/collision/L_foot_link.STL" />
+          filename="package://QUB_gazebo/meshes/collision/L_foot_link.STL" />
       </geometry>
     </collision>
   </link>
